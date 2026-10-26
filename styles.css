@@ -1,0 +1,105 @@
+/* --- Global Page Styling --- */
+body {
+    background-color: #f0f4f8; /* Background color requirement */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font requirement */
+    margin: 0;
+    padding: 20px;
+    color: #2c3e50;
+}
+
+/* Navigation Links */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #16a085;
+    text-decoration: underline;
+}
+
+/* Styled Heading Requirement */
+h1 {
+    color: #1a5276;
+    text-align: center;
+    font-size: 2.2rem;
+    border-bottom: 3px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin: 10px auto 20px auto;
+}
+
+.heading-wrapper {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Round Picture Requirement */
+.profile-container {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.round-picture {
+    width: 180px;              /* Exact width */
+    height: 180px;             /* Exact height (matching width ensures a perfect circle) */
+    border-radius: 50%;        /* Makes the picture completely round */
+    object-fit: cover;         /* Scales/crops your vertical photo centered without squishing */
+    border: 4px solid #2980b9; /* Styled border around image */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Bordered Form Requirement */
+form {
+    border: 2px solid #2980b9;  /* Visible border requirement */
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f618d;
+}
